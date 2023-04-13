@@ -1,0 +1,43 @@
+@mixin wnpx($n)
+    .w#{$n}px
+        width: #{$n}px
+@mixin hnpx($n)
+    .h#{$n}px
+        height: #{$n}px
+@include wnpx(50)
+@include hnpx(50)
+@include wnpx(40)
+@include hnpx(40)
+@include wnpx(25)
+@include hnpx(25)
+.h-90
+    height: 92%
+.headerSlides
+    height: 85vh
+
+.headSlideBtns
+    justify-content: flex-end
+
+.carousel-indicators
+    button.active
+        width: 120px
+
+.carousel-indicators [data-bs-target]
+    height: 6px
+    background-color: #666
+.bg-50trans
+    background-color: #44444497
+.bg-50trans-2
+    background-color: #bfbfbf97
+.carousel-control-prev-icon
+    width: 1.2rem
+.carousel-control-next-icon
+    width: 1.2rem
+.btn-outline-info
+    --bs-btn-hover-color: #fff
+h1
+    letter-spacing: 2px
+nav
+    *
+        color: black
+        font-size: 14px

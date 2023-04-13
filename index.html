@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BS homework3</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <nav class="position-absolute top-50 start-0 translate-middle-y z-2 rounded bg-50trans-2 ms-3">
+    <ul class="nav flex-column px-2 py-2">
+      <li class="nav-item py-2">
+        <a class="nav-link vstack border border-success p-0" href="#">
+          <span class="text-center border border-info"><i class="fa-solid fa-house"></i></span>
+          <span class="text-center">首頁</span>
+        </a>
+      </li>
+      <li class="nav-item py-2">
+        <a class="nav-link vstack p-0" href="#">
+          <span class="text-center"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span class="text-center">搜尋</span>
+        </a>
+      </li>
+      <li class="nav-item py-2">
+        <a class="nav-link vstack p-0" href="#">
+          <span class="text-center"><i class="fa-solid fa-align-justify"></i></span>
+          <span class="text-center">列表</span>
+        </a>
+      </li>
+      <li class="nav-item py-2">
+        <a class="nav-link vstack p-0" href="#">
+          <span class="text-center"><i class="fa-regular fa-compass"></i></span>
+          <span class="text-center">導覧</span>
+        </a>
+      </li>
+      <li class="nav-item py-2">
+        <a class="nav-link vstack p-0" href="#">
+          <span class="text-center"><i class="fa-solid fa-hand-holding-dollar"></i></span>
+          <span class="text-center">贊助</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container-fluid g-0 position-relative">
+    <header class="d-flex position-absolute z-1 w-100 p-3">
+      <div class="d-flex align-items-center me-auto flex-column">
+        <div
+          class="logo w40px h40px border border-2 border-info rounded-circle d-flex justify-content-center align-items-center fs-5 text-info m-2">
+          DQ</div>
+        <h1 class="fs-4 text-white mb-0 d-flex flex-column">
+          <span>地</span>
+          <span>球</span>
+          <span>圖</span>
+          <span>輯</span>
+          <span>隊</span>
+        </h1>
+      </div>
+      <button type="button" class="btn btn-outline-info btn-sm h25px py-0 me-2">登入</button>
+    </header>
+
+    <!-- ==carousel slides== -->
+    <div id="headerSlides" class="headerSlides carousel slide  position-relative" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#headerSlides" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      </div>
+      <div class="carousel-inner h-90">
+        <div class="carousel-item h-100 active"><a href="#"><img src="./imgs/plant1.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""><img src="./imgs/plant2.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""><img src="./imgs/plant3.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="...">
+        </div></a>
+        <div class="carousel-item h-100"><a href=""><img src="./imgs/plant4.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""><img src="./imgs/plant5.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""><img src="./imgs/plant6.jpg"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""><img src="./imgs/plant7.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""> <img src="./imgs/plant8.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""><img src="./imgs/plant9.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+        <div class="carousel-item h-100"><a href=""> <img src="./imgs/plant10.avif"
+              class="d-block w-100 h-100 object-fit-cover" alt="..."></a>
+        </div>
+      </div>
+      <div class="headSlideBtns position-absolute top-50 end-0 w-100 d-flex">
+        <button class="rounded bg-50trans border-0 d-flex justify-content-center align-items-center h50px w50px"
+          type="button" data-bs-target="#headerSlides" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="rounded bg-50trans border-0 d-flex justify-content-center align-items-center ms-4 h50px w50px"
+          type="button" data-bs-target="#headerSlides" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid bg-warning ms-5">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
+      <div class="col">
+        <div class="bg-info">1</div>
+      </div>
+      <div class="col">
+        <div class="bg-info">2</div>
+      </div>
+      <div class="col">
+        <div class="bg-info">3</div>
+      </div>
+      <div class="col">
+        <div class="bg-info">4</div>
+      </div>
+      <div class="col">
+        <div class="bg-info">5</div>
+      </div>
+      <div class="col">
+        <div class="bg-info">6</div>
+      </div>
+      <div class="col">
+        <div class="bg-info">7</div>
+      </div>
+      <div class="col">
+        <div class="bg-info">8</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

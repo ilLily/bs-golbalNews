@@ -1,0 +1,73 @@
+.w50px {
+  width: 50px;
+}
+
+.h50px {
+  height: 50px;
+}
+
+.w40px {
+  width: 40px;
+}
+
+.h40px {
+  height: 40px;
+}
+
+.w25px {
+  width: 25px;
+}
+
+.h25px {
+  height: 25px;
+}
+
+.h-90 {
+  height: 92%;
+}
+
+.headerSlides {
+  height: 85vh;
+}
+
+.headSlideBtns {
+  justify-content: flex-end;
+}
+
+.carousel-indicators button.active {
+  width: 120px;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 6px;
+  background-color: #666;
+}
+
+.bg-50trans {
+  background-color: rgba(68, 68, 68, 0.5921568627);
+}
+
+.bg-50trans-2 {
+  background-color: rgba(191, 191, 191, 0.5921568627);
+}
+
+.carousel-control-prev-icon {
+  width: 1.2rem;
+}
+
+.carousel-control-next-icon {
+  width: 1.2rem;
+}
+
+.btn-outline-info {
+  --bs-btn-hover-color: #fff;
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+nav * {
+  color: black;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
